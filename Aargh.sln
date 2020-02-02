@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29721.120
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParrotAPI", "ParrotAPI\ParrotAPI.csproj", "{993654A3-762F-48D9-9BA6-B7007C9EC9DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{1C053265-D23F-4C7A-BD38-D918ADD46333}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PPT", "PPT", "{C5F9BCFE-B5E7-49F2-9E28-CBAC6A84AA93}"
+	ProjectSection(SolutionItems) = preProject
+		PPT\first-presentation.svg = PPT\first-presentation.svg
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		DebugLocal|Any CPU = DebugLocal|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{993654A3-762F-48D9-9BA6-B7007C9EC9DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{993654A3-762F-48D9-9BA6-B7007C9EC9DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{993654A3-762F-48D9-9BA6-B7007C9EC9DB}.DebugLocal|Any CPU.ActiveCfg = Debug|Any CPU
+		{993654A3-762F-48D9-9BA6-B7007C9EC9DB}.DebugLocal|Any CPU.Build.0 = Debug|Any CPU
+		{993654A3-762F-48D9-9BA6-B7007C9EC9DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{993654A3-762F-48D9-9BA6-B7007C9EC9DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C5F9BCFE-B5E7-49F2-9E28-CBAC6A84AA93} = {1C053265-D23F-4C7A-BD38-D918ADD46333}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C501378-57AD-41C9-8D9A-7E042D6BF36A}
+	EndGlobalSection
+EndGlobal

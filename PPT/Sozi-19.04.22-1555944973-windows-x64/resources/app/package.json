@@ -1,0 +1,46 @@
+{
+  "name": "sozi",
+  "description": "A zooming presentation editor",
+  "author": "Guillaume Savaton",
+  "version": "19.04.22-1555944973",
+  "license": "MPL-2.0",
+  "main": "js/electron.js",
+  "scripts": {
+    "start": "electron js/electron.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/senshu/Sozi.git"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.6.3",
+    "html2canvas": "^1.0.0-alpha.12",
+    "inferno": "^5.6.1",
+    "inferno-hyperscript": "^5.6.1",
+    "jed": "^1.1.0",
+    "nunjucks": "^3.0.0",
+    "screenfull": "^3.3.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.0.0",
+    "babel-preset-env": "^1.7.0",
+    "grunt": "~1.0.0",
+    "grunt-babel": "^7.0.0",
+    "grunt-browserify": "^5.2.0",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-compress": "^1.4.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-csslint": "^2.0.0",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-uglify": "^3.2.0",
+    "grunt-electron": "^9.0.0",
+    "grunt-install-dependencies": "senshu/grunt-install-dependencies",
+    "grunt-jspot": "senshu/grunt-jspot",
+    "grunt-newer": "^1.1.0",
+    "grunt-po2json": "rockykitamura/grunt-po2json",
+    "grunt-rename": "senshu/grunt-rename",
+    "grunt-rsync": "^2.0.0",
+    "grunt-simple-mocha": "^0.4.0",
+    "load-grunt-tasks": "^3.1.0"
+  }
+}

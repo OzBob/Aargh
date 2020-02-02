@@ -1,0 +1,49 @@
+.properties {
+    margin: 0.5em 1em;
+}
+
+.properties h1 {
+    text-align: center;
+    font-size: 120%;
+}
+
+.properties h2 {
+    font-size: 110%;
+}
+
+.properties h3 {
+    font-size: 100%;
+}
+
+.properties > div {
+    margin-top: 0.5em;
+    margin-bottom: 0.3em;
+}
+
+.properties > div.btn-group {
+    text-align: center;
+}
+
+.properties label {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.3em;
+}
+
+.properties input,
+.properties select {
+    width: 100%;
+}
+
+.properties span.btn-group,
+.properties :not(.btn-group) > button {
+    margin-left: 1em;
+}
+
+.properties {
+    color: white;
+}
+
+.properties .help {
+    margin-left: 1em;
+}
