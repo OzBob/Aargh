@@ -1,0 +1,25 @@
+use-extension:
+  "@microsoft.azure/autorest.typescript": "2.6.0"
+  "@microsoft.azure/autorest.csharp": "2.3.82"
+use-datetimeoffset: true
+license-header: NONE
+input-file: Application_private-v1.json
+# directives are the customization work
+directive:
+- from: swagger-document
+  where: $.components.schemas.*.additionalProperties
+  transform: |
+    return typeof $ === "boolean"
+      ? ($ ? { type: "object" } : undefined)
+      : $
+  reason: polyfill
+- from: swagger-document
+  where: $.paths.*.get.parameters[?(@.schema.type === "array")]
+  transform: |    
+    if ($.style === undefined) {
+        $.style = "form";
+        $.explode = true;
+    }
+  reason: polyfill
+csharp:
+  output-folder : output

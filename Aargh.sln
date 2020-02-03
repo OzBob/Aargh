@@ -15,6 +15,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PPT", "PPT", "{C5F9BCFE-B5E
 		PPT\first-presentation.svg = PPT\first-presentation.svg
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ClientCodeGen", "ClientCodeGen", "{3651C2D9-38E4-436B-A2D8-949A6B6F7C77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParrotAPIClient", "ClientCodeGen\AutoRest\values\CSharp_Values\ParrotAPIClient\ParrotAPIClient.csproj", "{AF893492-84DE-4A24-81B4-C090AF7D9C31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParrotConsole", "ClientCodeGen\ParrotConsole\ParrotConsole.csproj", "{2FBDD1F4-B748-45EE-BE2C-5056D8999909}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,12 +34,26 @@ Global
 		{993654A3-762F-48D9-9BA6-B7007C9EC9DB}.DebugLocal|Any CPU.Build.0 = Debug|Any CPU
 		{993654A3-762F-48D9-9BA6-B7007C9EC9DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{993654A3-762F-48D9-9BA6-B7007C9EC9DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF893492-84DE-4A24-81B4-C090AF7D9C31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF893492-84DE-4A24-81B4-C090AF7D9C31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF893492-84DE-4A24-81B4-C090AF7D9C31}.DebugLocal|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF893492-84DE-4A24-81B4-C090AF7D9C31}.DebugLocal|Any CPU.Build.0 = Debug|Any CPU
+		{AF893492-84DE-4A24-81B4-C090AF7D9C31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF893492-84DE-4A24-81B4-C090AF7D9C31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FBDD1F4-B748-45EE-BE2C-5056D8999909}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FBDD1F4-B748-45EE-BE2C-5056D8999909}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FBDD1F4-B748-45EE-BE2C-5056D8999909}.DebugLocal|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FBDD1F4-B748-45EE-BE2C-5056D8999909}.DebugLocal|Any CPU.Build.0 = Debug|Any CPU
+		{2FBDD1F4-B748-45EE-BE2C-5056D8999909}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FBDD1F4-B748-45EE-BE2C-5056D8999909}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C5F9BCFE-B5E7-49F2-9E28-CBAC6A84AA93} = {1C053265-D23F-4C7A-BD38-D918ADD46333}
+		{AF893492-84DE-4A24-81B4-C090AF7D9C31} = {3651C2D9-38E4-436B-A2D8-949A6B6F7C77}
+		{2FBDD1F4-B748-45EE-BE2C-5056D8999909} = {3651C2D9-38E4-436B-A2D8-949A6B6F7C77}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0C501378-57AD-41C9-8D9A-7E042D6BF36A}

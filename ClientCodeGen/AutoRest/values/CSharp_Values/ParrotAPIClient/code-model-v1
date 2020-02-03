@@ -1,0 +1,783 @@
+{
+ "$id": "1",
+ "name": "ParrotAPI",
+ "namespace": "Values",
+ "modelsName": "Models",
+ "apiVersion": "v1",
+ "baseUrl": "https://localhost:44346",
+ "properties": [
+  {
+   "$id": "2",
+   "isReadOnly": false,
+   "realPath": [
+    "id"
+   ],
+   "collectionFormat": "none",
+   "defaultValue": {
+    "$id": "3",
+    "fixed": false
+   },
+   "deprecated": false,
+   "documentation": {
+    "$id": "4",
+    "fixed": false
+   },
+   "extensions": {
+    "x-ms-metadata": {
+     "apiVersions": [
+      "v1"
+     ],
+     "filename": [
+      "mem:///107?oai3.shaken.json"
+     ],
+     "name": "paths·api-values-id·get·parameters·0",
+     "originalLocations": [
+      "file:///C:/Users/robma/source/repos/Aargh/ClientCodeGen/AutoRest/values/values.yaml#/components/parameters/paths·api-values-id·get·parameters·0"
+     ]
+    },
+    "x-ms-parameter-location": "method"
+   },
+   "isRequired": true,
+   "isConstant": false,
+   "name": {
+    "$id": "5",
+    "fixed": false,
+    "raw": "id"
+   },
+   "serializedName": "id",
+   "modelType": {
+    "$id": "6",
+    "$type": "PrimaryType",
+    "format": "int32",
+    "knownPrimaryType": "int",
+    "name": {
+     "$id": "7",
+     "fixed": false,
+     "raw": "Int"
+    },
+    "deprecated": false
+   }
+  },
+  {
+   "$id": "8",
+   "isReadOnly": false,
+   "realPath": [
+    "id"
+   ],
+   "collectionFormat": "none",
+   "defaultValue": {
+    "$id": "9",
+    "fixed": false
+   },
+   "deprecated": false,
+   "documentation": {
+    "$id": "10",
+    "fixed": false
+   },
+   "extensions": {
+    "x-ms-metadata": {
+     "apiVersions": [
+      "v1"
+     ],
+     "filename": [
+      "mem:///107?oai3.shaken.json"
+     ],
+     "name": "paths·api-values-id·put·parameters·0",
+     "originalLocations": [
+      "file:///C:/Users/robma/source/repos/Aargh/ClientCodeGen/AutoRest/values/values.yaml#/components/parameters/paths·api-values-id·put·parameters·0"
+     ]
+    },
+    "x-ms-parameter-location": "method"
+   },
+   "isRequired": true,
+   "isConstant": false,
+   "name": {
+    "$id": "11",
+    "fixed": false,
+    "raw": "Id1"
+   },
+   "serializedName": "id",
+   "modelType": {
+    "$id": "12",
+    "$type": "PrimaryType",
+    "format": "int32",
+    "knownPrimaryType": "int",
+    "name": {
+     "$id": "13",
+     "fixed": false,
+     "raw": "Int"
+    },
+    "deprecated": false
+   }
+  },
+  {
+   "$id": "14",
+   "isReadOnly": false,
+   "realPath": [
+    "id"
+   ],
+   "collectionFormat": "none",
+   "defaultValue": {
+    "$id": "15",
+    "fixed": false
+   },
+   "deprecated": false,
+   "documentation": {
+    "$id": "16",
+    "fixed": false
+   },
+   "extensions": {
+    "x-ms-metadata": {
+     "apiVersions": [
+      "v1"
+     ],
+     "filename": [
+      "mem:///107?oai3.shaken.json"
+     ],
+     "name": "paths·api-values-id·delete·parameters·0",
+     "originalLocations": [
+      "file:///C:/Users/robma/source/repos/Aargh/ClientCodeGen/AutoRest/values/values.yaml#/components/parameters/paths·api-values-id·delete·parameters·0"
+     ]
+    },
+    "x-ms-parameter-location": "method"
+   },
+   "isRequired": true,
+   "isConstant": false,
+   "name": {
+    "$id": "17",
+    "fixed": false,
+    "raw": "Id2"
+   },
+   "serializedName": "id",
+   "modelType": {
+    "$id": "18",
+    "$type": "PrimaryType",
+    "format": "int32",
+    "knownPrimaryType": "int",
+    "name": {
+     "$id": "19",
+     "fixed": false,
+     "raw": "Int"
+    },
+    "deprecated": false
+   }
+  }
+ ],
+ "operations": [
+  {
+   "$id": "20",
+   "methods": [
+    {
+     "$id": "21",
+     "name": {
+      "$id": "22",
+      "fixed": false,
+      "raw": "Get"
+     },
+     "group": {
+      "$id": "23",
+      "fixed": false,
+      "raw": "Values"
+     },
+     "serializedName": "Values_Get",
+     "url": "/api/Values",
+     "isAbsoluteUrl": false,
+     "httpMethod": "get",
+     "responses": {
+      "OK": {
+       "$id": "24",
+       "body": {
+        "$id": "25",
+        "$type": "SequenceType",
+        "elementType": {
+         "$id": "26",
+         "$type": "PrimaryType",
+         "knownPrimaryType": "string",
+         "name": {
+          "$id": "27",
+          "fixed": false,
+          "raw": "String"
+         },
+         "deprecated": false
+        },
+        "name": {
+         "$id": "28",
+         "fixed": false
+        },
+        "deprecated": false
+       },
+       "extensions": {
+        "$id": "29",
+        "x-ms-metadata": {
+         "apiVersions": [
+          "v1"
+         ],
+         "filename": [
+          "mem:///107?oai3.shaken.json"
+         ],
+         "name": "paths·api-values·get·responses·200",
+         "originalLocations": [
+          "file:///C:/Users/robma/source/repos/Aargh/ClientCodeGen/AutoRest/values/values.yaml#/components/responses/paths·api-values·get·responses·200"
+         ]
+        }
+       },
+       "isNullable": true
+      }
+     },
+     "defaultResponse": {
+      "$id": "30",
+      "isNullable": true
+     },
+     "returnType": {
+      "$id": "31",
+      "body": {
+       "$ref": "25"
+      },
+      "isNullable": true
+     },
+     "requestContentType": "application/json; charset=utf-8",
+     "responseContentTypes": [
+      "application/json",
+      "text/json",
+      "application/xml",
+      "text/xml"
+     ],
+     "extensions": {
+      "servers": [
+       {
+        "url": "https://localhost:44346/"
+       }
+      ]
+     },
+     "deprecated": false,
+     "hidden": false
+    },
+    {
+     "$id": "32",
+     "parameters": [
+      {
+       "$id": "33",
+       "location": "body",
+       "deprecated": false,
+       "collectionFormat": "none",
+       "defaultValue": {
+        "$id": "34",
+        "fixed": false
+       },
+       "documentation": {
+        "$id": "35",
+        "fixed": false
+       },
+       "extensions": {
+        "x-ms-metadata": {
+         "apiVersions": [
+          "v1"
+         ],
+         "filename": [
+          "mem:///107?oai3.shaken.json"
+         ],
+         "name": "paths·api-values·post·requestbody",
+         "originalLocations": [
+          "file:///C:/Users/robma/source/repos/Aargh/ClientCodeGen/AutoRest/values/values.yaml#/components/requestBodies/paths·api-values·post·requestbody"
+         ]
+        },
+        "x-ms-requestBody-name": "value"
+       },
+       "isRequired": true,
+       "isConstant": false,
+       "name": {
+        "$id": "36",
+        "fixed": false,
+        "raw": "value"
+       },
+       "serializedName": "value",
+       "modelType": {
+        "$id": "37",
+        "$type": "PrimaryType",
+        "knownPrimaryType": "string",
+        "name": {
+         "$id": "38",
+         "fixed": false,
+         "raw": "String"
+        },
+        "deprecated": false
+       }
+      }
+     ],
+     "name": {
+      "$id": "39",
+      "fixed": false,
+      "raw": "Post"
+     },
+     "group": {
+      "$id": "40",
+      "fixed": false,
+      "raw": "Values"
+     },
+     "serializedName": "Values_Post",
+     "url": "/api/Values",
+     "isAbsoluteUrl": false,
+     "httpMethod": "post",
+     "responses": {
+      "NoContent": {
+       "$id": "41",
+       "extensions": {
+        "$id": "42",
+        "x-ms-metadata": {
+         "apiVersions": [
+          "v1"
+         ],
+         "filename": [
+          "mem:///107?oai3.shaken.json"
+         ],
+         "name": "paths·api-values·post·responses·204",
+         "originalLocations": [
+          "file:///C:/Users/robma/source/repos/Aargh/ClientCodeGen/AutoRest/values/values.yaml#/components/responses/paths·api-values·post·responses·204"
+         ]
+        }
+       },
+       "isNullable": true
+      }
+     },
+     "defaultResponse": {
+      "$id": "43",
+      "isNullable": true
+     },
+     "returnType": {
+      "$id": "44",
+      "isNullable": true
+     },
+     "requestContentType": "application/json; charset=utf-8",
+     "responseContentTypes": [
+      "application/json"
+     ],
+     "extensions": {
+      "servers": [
+       {
+        "url": "https://localhost:44346/"
+       }
+      ],
+      "x-ms-requestBody-index": "0"
+     },
+     "deprecated": false,
+     "hidden": false
+    },
+    {
+     "$id": "45",
+     "parameters": [
+      {
+       "$id": "46",
+       "clientProperty": {
+        "$ref": "2"
+       },
+       "location": "path",
+       "deprecated": false,
+       "collectionFormat": "none",
+       "defaultValue": {
+        "$id": "47",
+        "fixed": false
+       },
+       "documentation": {
+        "$id": "48",
+        "fixed": false
+       },
+       "extensions": {
+        "x-ms-metadata": {
+         "apiVersions": [
+          "v1"
+         ],
+         "filename": [
+          "mem:///107?oai3.shaken.json"
+         ],
+         "name": "paths·api-values-id·get·parameters·0",
+         "originalLocations": [
+          "file:///C:/Users/robma/source/repos/Aargh/ClientCodeGen/AutoRest/values/values.yaml#/components/parameters/paths·api-values-id·get·parameters·0"
+         ]
+        },
+        "x-ms-parameter-location": "method"
+       },
+       "isRequired": true,
+       "isConstant": false,
+       "name": {
+        "$id": "49",
+        "fixed": false,
+        "raw": "id"
+       },
+       "serializedName": "id",
+       "modelType": {
+        "$id": "50",
+        "$type": "PrimaryType",
+        "format": "int32",
+        "knownPrimaryType": "int",
+        "name": {
+         "$id": "51",
+         "fixed": false,
+         "raw": "Int"
+        },
+        "deprecated": false
+       }
+      }
+     ],
+     "name": {
+      "$id": "52",
+      "fixed": false,
+      "raw": "Get1"
+     },
+     "group": {
+      "$id": "53",
+      "fixed": false,
+      "raw": "Values"
+     },
+     "serializedName": "Values_Get",
+     "url": "/api/Values/{id}",
+     "isAbsoluteUrl": false,
+     "httpMethod": "get",
+     "responses": {
+      "OK": {
+       "$id": "54",
+       "body": {
+        "$id": "55",
+        "$type": "PrimaryType",
+        "knownPrimaryType": "string",
+        "name": {
+         "$id": "56",
+         "fixed": false,
+         "raw": "String"
+        },
+        "deprecated": false
+       },
+       "extensions": {
+        "$id": "57",
+        "x-ms-metadata": {
+         "apiVersions": [
+          "v1"
+         ],
+         "filename": [
+          "mem:///107?oai3.shaken.json"
+         ],
+         "name": "paths·api-values-id·get·responses·200",
+         "originalLocations": [
+          "file:///C:/Users/robma/source/repos/Aargh/ClientCodeGen/AutoRest/values/values.yaml#/components/responses/paths·api-values-id·get·responses·200"
+         ]
+        }
+       },
+       "isNullable": true
+      }
+     },
+     "defaultResponse": {
+      "$id": "58",
+      "isNullable": true
+     },
+     "returnType": {
+      "$id": "59",
+      "body": {
+       "$ref": "55"
+      },
+      "isNullable": true
+     },
+     "requestContentType": "application/json; charset=utf-8",
+     "responseContentTypes": [
+      "application/json",
+      "text/json",
+      "application/xml",
+      "text/xml"
+     ],
+     "extensions": {
+      "servers": [
+       {
+        "url": "https://localhost:44346/"
+       }
+      ]
+     },
+     "deprecated": false,
+     "hidden": false
+    },
+    {
+     "$id": "60",
+     "parameters": [
+      {
+       "$id": "61",
+       "clientProperty": {
+        "$ref": "2"
+       },
+       "location": "path",
+       "deprecated": false,
+       "collectionFormat": "none",
+       "defaultValue": {
+        "$id": "62",
+        "fixed": false
+       },
+       "documentation": {
+        "$id": "63",
+        "fixed": false
+       },
+       "extensions": {
+        "x-ms-metadata": {
+         "apiVersions": [
+          "v1"
+         ],
+         "filename": [
+          "mem:///107?oai3.shaken.json"
+         ],
+         "name": "paths·api-values-id·put·parameters·0",
+         "originalLocations": [
+          "file:///C:/Users/robma/source/repos/Aargh/ClientCodeGen/AutoRest/values/values.yaml#/components/parameters/paths·api-values-id·put·parameters·0"
+         ]
+        },
+        "x-ms-parameter-location": "method"
+       },
+       "isRequired": true,
+       "isConstant": false,
+       "name": {
+        "$id": "64",
+        "fixed": false,
+        "raw": "id"
+       },
+       "serializedName": "id",
+       "modelType": {
+        "$id": "65",
+        "$type": "PrimaryType",
+        "format": "int32",
+        "knownPrimaryType": "int",
+        "name": {
+         "$id": "66",
+         "fixed": false,
+         "raw": "Int"
+        },
+        "deprecated": false
+       }
+      },
+      {
+       "$id": "67",
+       "location": "body",
+       "deprecated": false,
+       "collectionFormat": "none",
+       "defaultValue": {
+        "$id": "68",
+        "fixed": false
+       },
+       "documentation": {
+        "$id": "69",
+        "fixed": false
+       },
+       "extensions": {
+        "x-ms-metadata": {
+         "apiVersions": [
+          "v1"
+         ],
+         "filename": [
+          "mem:///107?oai3.shaken.json"
+         ],
+         "name": "paths·api-values-id·put·requestbody",
+         "originalLocations": [
+          "file:///C:/Users/robma/source/repos/Aargh/ClientCodeGen/AutoRest/values/values.yaml#/components/requestBodies/paths·api-values-id·put·requestbody"
+         ]
+        },
+        "x-ms-requestBody-name": "value"
+       },
+       "isRequired": true,
+       "isConstant": false,
+       "name": {
+        "$id": "70",
+        "fixed": false,
+        "raw": "value"
+       },
+       "serializedName": "value",
+       "modelType": {
+        "$id": "71",
+        "$type": "PrimaryType",
+        "knownPrimaryType": "string",
+        "name": {
+         "$id": "72",
+         "fixed": false,
+         "raw": "String"
+        },
+        "deprecated": false
+       }
+      }
+     ],
+     "name": {
+      "$id": "73",
+      "fixed": false,
+      "raw": "Put"
+     },
+     "group": {
+      "$id": "74",
+      "fixed": false,
+      "raw": "Values"
+     },
+     "serializedName": "Values_Put",
+     "url": "/api/Values/{id}",
+     "isAbsoluteUrl": false,
+     "httpMethod": "put",
+     "responses": {
+      "NoContent": {
+       "$id": "75",
+       "extensions": {
+        "$id": "76",
+        "x-ms-metadata": {
+         "apiVersions": [
+          "v1"
+         ],
+         "filename": [
+          "mem:///107?oai3.shaken.json"
+         ],
+         "name": "paths·api-values-id·put·responses·204",
+         "originalLocations": [
+          "file:///C:/Users/robma/source/repos/Aargh/ClientCodeGen/AutoRest/values/values.yaml#/components/responses/paths·api-values-id·put·responses·204"
+         ]
+        }
+       },
+       "isNullable": true
+      }
+     },
+     "defaultResponse": {
+      "$id": "77",
+      "isNullable": true
+     },
+     "returnType": {
+      "$id": "78",
+      "isNullable": true
+     },
+     "requestContentType": "application/json; charset=utf-8",
+     "responseContentTypes": [
+      "application/json"
+     ],
+     "extensions": {
+      "servers": [
+       {
+        "url": "https://localhost:44346/"
+       }
+      ],
+      "x-ms-requestBody-index": "1"
+     },
+     "deprecated": false,
+     "hidden": false
+    },
+    {
+     "$id": "79",
+     "parameters": [
+      {
+       "$id": "80",
+       "clientProperty": {
+        "$ref": "2"
+       },
+       "location": "path",
+       "deprecated": false,
+       "collectionFormat": "none",
+       "defaultValue": {
+        "$id": "81",
+        "fixed": false
+       },
+       "documentation": {
+        "$id": "82",
+        "fixed": false
+       },
+       "extensions": {
+        "x-ms-metadata": {
+         "apiVersions": [
+          "v1"
+         ],
+         "filename": [
+          "mem:///107?oai3.shaken.json"
+         ],
+         "name": "paths·api-values-id·delete·parameters·0",
+         "originalLocations": [
+          "file:///C:/Users/robma/source/repos/Aargh/ClientCodeGen/AutoRest/values/values.yaml#/components/parameters/paths·api-values-id·delete·parameters·0"
+         ]
+        },
+        "x-ms-parameter-location": "method"
+       },
+       "isRequired": true,
+       "isConstant": false,
+       "name": {
+        "$id": "83",
+        "fixed": false,
+        "raw": "id"
+       },
+       "serializedName": "id",
+       "modelType": {
+        "$id": "84",
+        "$type": "PrimaryType",
+        "format": "int32",
+        "knownPrimaryType": "int",
+        "name": {
+         "$id": "85",
+         "fixed": false,
+         "raw": "Int"
+        },
+        "deprecated": false
+       }
+      }
+     ],
+     "name": {
+      "$id": "86",
+      "fixed": false,
+      "raw": "Delete"
+     },
+     "group": {
+      "$id": "87",
+      "fixed": false,
+      "raw": "Values"
+     },
+     "serializedName": "Values_Delete",
+     "url": "/api/Values/{id}",
+     "isAbsoluteUrl": false,
+     "httpMethod": "delete",
+     "responses": {
+      "NoContent": {
+       "$id": "88",
+       "extensions": {
+        "$id": "89",
+        "x-ms-metadata": {
+         "apiVersions": [
+          "v1"
+         ],
+         "filename": [
+          "mem:///107?oai3.shaken.json"
+         ],
+         "name": "paths·api-values-id·delete·responses·204",
+         "originalLocations": [
+          "file:///C:/Users/robma/source/repos/Aargh/ClientCodeGen/AutoRest/values/values.yaml#/components/responses/paths·api-values-id·delete·responses·204"
+         ]
+        }
+       },
+       "isNullable": true
+      }
+     },
+     "defaultResponse": {
+      "$id": "90",
+      "isNullable": true
+     },
+     "returnType": {
+      "$id": "91",
+      "isNullable": true
+     },
+     "requestContentType": "application/json; charset=utf-8",
+     "responseContentTypes": [
+      "application/json"
+     ],
+     "extensions": {
+      "servers": [
+       {
+        "url": "https://localhost:44346/"
+       }
+      ]
+     },
+     "deprecated": false,
+     "hidden": false
+    }
+   ],
+   "name": {
+    "$id": "92",
+    "fixed": false,
+    "raw": "Values"
+   },
+   "typeName": {
+    "$id": "93",
+    "fixed": false
+   },
+   "nameForProperty": "Values"
+  }
+ ]
+}
